@@ -11,7 +11,7 @@ class StoreSeeder extends Seeder
      *
      * @return void
      */
-    public function run(Faker\Factory $faker)
+    public function run()
     {
         DB::table('stores')->insert([
             'name' => 'TECHNO STORE',
